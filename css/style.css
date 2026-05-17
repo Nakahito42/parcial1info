@@ -4,9 +4,6 @@ body {
     background-position: center;
     background-size:auto;
     margin: 0;
-    clear: left;
-    float: none;
-    display: inline;
 	overflow: auto;
 }
 img {margin: 2rem;}
@@ -88,7 +85,7 @@ footer address {background: rgba(52, 0, 77, 0.87);
 		margin: 0;
 		padding: 0;
 		color: white;
-		font-weight: 550;
+		font-weight: 600;
 }
 
 address a {
