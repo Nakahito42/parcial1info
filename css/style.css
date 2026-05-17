@@ -1,0 +1,117 @@
+body {
+	font-family: "Arvo";
+    background-image: url("../img/fondo.png");
+    background-position: center;
+    background-size:auto;
+    margin: 0;
+    clear: left;
+    float: none;
+    display: inline;
+	overflow: auto;
+}
+img {margin: 2rem;}
+main {
+	height:auto;
+	max-width: 1920px;
+}
+header {
+    height: 3em;
+    background-color: rgba(73, 0, 0, 0.87);
+    margin: 0;
+    padding: 0;
+	border-top:solid;
+    border-bottom:solid;
+	border-color: rgb(0, 4, 14);
+}
+
+header h1 {
+			text-align: center;
+			margin: 0;
+			padding:0;
+			align-content: center;
+			justify-content: center;
+			font-weight: 800;
+}
+
+a {text-decoration: none;
+}
+
+nav {height: 4rem;
+	background: rgba(52, 0, 77, 0.87);
+	margin:0}
+	
+nav h2 {
+    height: 100%;
+	font-weight: 900;
+    padding: 0;
+	margin-left: 2em;
+    display: inline-block;}
+nav ul {list-style: none;
+		height: 100%;
+		float: right;
+		padding: 0;
+		margin: 0;
+		align-items: center;
+		display:flex;
+		text-align: center;}
+
+nav li {display: inline-flex;
+		padding-left: 2rem;
+		padding-right: 2rem;
+}
+
+nav a {	
+	font-weight: 900;
+	color: white;
+}
+
+nav a:hover {color: #00b3c0;}
+
+section {background: rgba(0,0,0,0.75);
+		color: white;
+		margin: 0 10% ;
+		padding: 3rem;
+		padding-bottom: 12rem;
+		
+}
+
+article iframe {display:block;
+		margin: 0 auto;
+		border:0;
+}
+
+footer address {background: rgba(52, 0, 77, 0.87);
+		height: 3rem;
+		display: flex;
+  		justify-content: center;
+	  	align-items: center;
+		margin: 0;
+		padding: 0;
+		color: white;
+		font-weight: 550;
+}
+
+address a {
+	font-weight: 500;
+	margin-left: 0.4em;
+	color: rgb(47, 255, 151);
+}
+address a:hover {
+	color:aqua;
+}
+div {display: flex;
+	}
+div.image1 {
+	align-content: center;
+	justify-content: center;
+}
+
+
+.whiter {color: white;}
+.center {text-align:center;}
+.right {text-align:right;}
+.jump {margin-top: 16%;	
+}
+.aleft {float: left;
+}
+.aright {float: right;}
